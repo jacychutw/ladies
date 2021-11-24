@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: "Microsoft JhengHei";
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pic1 {
+    width: 30px;
+    height: 30px;
+}
+
+.pic2 {
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+button:focus {outline:none !important}
+
+#main {
+    margin-bottom: 30px;
+}
+
+.cardsa {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+    justify-content: space-around;
+    margin: 0 5%;
+}
+
+.card {
+    background-color: white;
+    width: 30%;
+    margin: 4px 0;
+    border: 2px solid #ccc;
+    cursor: zoom-in;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+
+.cardsc {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+    justify-content: space-around;
+}
+
+.onecard {
+    border: 2px solid #ccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin: 10px 0;
+}
+
+.bimg {
+    border: 2px solid #ccc;
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+
+.gototop{
+  width:50px;
+  height:50px;
+  line-height:50px;
+  font-family:verdana;
+  text-align:center;
+  background:lightgray;
+  color:#fff;
+  position:fixed;
+  bottom:20px;
+  right:30px;
+  border-radius:50%;
+  text-decoration:none;
+  cursor: pointer;
+  /*先隱藏*/
+  display:none;
+}
+
+
